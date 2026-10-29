@@ -1,0 +1,97 @@
+@media print {
+    /* Hide everything non-essential */
+    body {
+        background: white !important;
+        color: black !important;
+        font-size: 11pt;
+    }
+
+    .sidebar,
+    .topbar,
+    .toast-container,
+    .modal-backdrop:not(.print-active),
+    .modal-footer,
+    .modal-close-btn,
+    .toolbar,
+    .quick-action-btn,
+    .btn,
+    .no-print {
+        display: none !important;
+    }
+
+    .main-wrapper {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .main-content {
+        padding: 0 !important;
+    }
+
+    /* Print Template Container */
+    .printable-document {
+        display: block !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 !important;
+        padding: 1.5cm !important;
+        border: none !important;
+        box-shadow: none !important;
+    }
+
+    .print-header {
+        border-bottom: 2px solid #1e3a8a;
+        padding-bottom: 1rem;
+        margin-bottom: 1.5rem;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .print-header h1 {
+        font-size: 16pt;
+        color: #1e3a8a;
+        margin-bottom: 0.2rem;
+    }
+
+    .print-grid-2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .print-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 1.5rem 0;
+    }
+
+    .print-table th,
+    .print-table td {
+        border: 1px solid #94a3b8;
+        padding: 6pt 8pt;
+        font-size: 9.5pt;
+    }
+
+    .print-table th {
+        background-color: #f1f5f9 !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+        text-transform: uppercase;
+    }
+
+    .print-signatures {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 3rem;
+        page-break-inside: avoid;
+    }
+
+    .signature-box {
+        width: 220px;
+        border-top: 1px solid #475569;
+        text-align: center;
+        padding-top: 0.5rem;
+        font-size: 9pt;
+    }
+}

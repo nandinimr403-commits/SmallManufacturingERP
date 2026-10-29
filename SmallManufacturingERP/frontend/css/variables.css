@@ -1,0 +1,65 @@
+:root {
+    /* Brand & Primary Colors */
+    --primary: #1e3a8a;
+    --primary-light: #2563eb;
+    --primary-dark: #172554;
+    --primary-50: #eff6ff;
+    --primary-100: #dbeafe;
+    
+    /* Secondary & Accent Colors */
+    --accent: #0284c7;
+    --accent-light: #38bdf8;
+    
+    /* Status & Alerts */
+    --success: #059669;
+    --success-light: #d1fae5;
+    --success-text: #065f46;
+    
+    --warning: #d97706;
+    --warning-light: #fef3c7;
+    --warning-text: #92400e;
+    
+    --danger: #dc2626;
+    --danger-light: #fee2e2;
+    --danger-text: #991b1b;
+    
+    --info: #0284c7;
+    --info-light: #e0f2fe;
+    --info-text: #075985;
+    
+    /* Neutrals & Surfaces */
+    --bg-main: #f8fafc;
+    --bg-card: #ffffff;
+    --bg-sidebar: #0f172a;
+    --bg-sidebar-hover: #1e293b;
+    --bg-sidebar-active: #2563eb;
+    
+    --text-primary: #0f172a;
+    --text-secondary: #475569;
+    --text-muted: #64748b;
+    --text-light: #94a3b8;
+    --text-white: #ffffff;
+    
+    --border-color: #e2e8f0;
+    --border-light: #f1f5f9;
+    --border-focus: #3b82f6;
+    
+    /* Shadows */
+    --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+    --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+    
+    /* Layout & Spacing */
+    --sidebar-width: 260px;
+    --sidebar-collapsed-width: 72px;
+    --header-height: 68px;
+    --radius-sm: 6px;
+    --radius-md: 10px;
+    --radius-lg: 14px;
+    --radius-full: 9999px;
+    
+    /* Transitions */
+    --transition-fast: 0.15s ease-in-out;
+    --transition-normal: 0.25s ease-in-out;
+}
